@@ -1,0 +1,66 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+@font-face {
+  font-family: Tourney;
+  src: url(Tourney-Regular.ttf);
+}
+
+@font-face {
+  font-family: Tourney-Semibold;
+  src: url(Tourney-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: Tourney-Medium;
+  src: url(Tourney-Medium.ttf);
+}
+
+body {
+  background-color: white;
+  color: red;
+  text-align: left;
+  margin: auto 24px;
+}
+
+p {
+  font-family: Verdana, arial;
+  font-size: 1em;
+  margin-bottom: 16px; 
+  }
+
+h1 {
+  font-family: Tourney, monospace;
+  font-size: 6em;
+  margin-bottom: 0px;
+  }
+  
+h2 {
+  font-family: Tourney-Semibold, Verdana, arial;
+  font-size: 4em;
+  margin-bottom: 8px;
+}
+
+h3 {
+  font-family: Verdana, arial;
+  font-size: 1.5em;
+  margin-bottom: 8px;
+  }
+
+li {
+  font-family: Verdana, arial;
+  font-size: 1em;
+  margin-bottom: 16px;
+  }
+
+hr {
+  border: 3px solid red;
+  }
+  
+footer {
+  font-family: Verdana, arial;
+  text-align: center;
+  color: red;
+  margin: 24px 24px;
+}
